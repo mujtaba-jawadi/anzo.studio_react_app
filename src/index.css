@@ -31,3 +31,12 @@ html,
 body {
   color: #f0f0f0;
 }
+#tiltDiv{
+ 
+  width: fit-content;
+ 
+}
+#home-inner{
+  position: relative;
+  perspective: 1500px;
+}
