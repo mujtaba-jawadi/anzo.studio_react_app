@@ -31,12 +31,17 @@ html,
 body {
   color: #f0f0f0;
 }
-#tiltDiv{
- 
+#tiltDiv {
   width: fit-content;
- 
 }
-#home-inner{
+#home-inner {
   position: relative;
   perspective: 1500px;
+}
+#sloganSection {
+  position: relative;
+  perspective: 5000px;
+}
+.rotateText {
+  transform-origin: 100% 100%;
 }

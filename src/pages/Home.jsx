@@ -4,6 +4,7 @@ import {HeroTiltText} from '../components/HeroTiltText'
 import { Hire } from "../components/Hire";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import { SloganSection } from "./SloganSection";
 // import { HeroTiltText } from "../components/HeroTiltText";
 
 export const Home = () => {
@@ -56,6 +57,7 @@ export const Home = () => {
         <HeroTiltText tiltTextRef={tiltTextRef} />
         <HeroBottomText />
       </div>
+      <SloganSection/>
     </div>
   );
 };
