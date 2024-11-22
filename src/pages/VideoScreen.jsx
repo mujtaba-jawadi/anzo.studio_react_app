@@ -11,7 +11,7 @@ export const VideoScreen = () => {
       <video
         className="h-[72vh] w-[48vw] relative z-10  object-cover"
         src="https://video.wixstatic.com/video/f1c650_ec0546cb7b10485c8753983f298c6ea4/360p/mp4/file.mp4"
-        autoPlay="true"
+        autoPlay={true}
         muted
         loop
       ></video>

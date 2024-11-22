@@ -38,10 +38,18 @@ body {
   position: relative;
   perspective: 1500px;
 }
-#sloganSection {
+.sloganSection {
   position: relative;
   perspective: 5000px;
 }
 .rotateText {
   transform-origin: 100% 100%;
+}
+.workDoText{
+    transform-origin: 100% 100%;
+
+}
+.workDoSection{
+   position: relative;
+  perspective: 5000px;
 }

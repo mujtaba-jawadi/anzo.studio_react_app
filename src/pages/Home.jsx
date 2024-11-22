@@ -5,6 +5,10 @@ import { Hire } from "../components/Hire";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { SloganSection } from "./SloganSection";
+import { VideoScreen } from "./VideoScreen";
+import { WorkDo } from "./WorkDo";
+import { About } from "./About";
+import { WorkDoText } from "./WorkDoText";
 // import { HeroTiltText } from "../components/HeroTiltText";
 
 export const Home = () => {
@@ -57,7 +61,11 @@ export const Home = () => {
         <HeroTiltText tiltTextRef={tiltTextRef} />
         <HeroBottomText />
       </div>
-      <SloganSection/>
+      <SloganSection />
+      <VideoScreen />
+      <WorkDo />
+      <WorkDoText/>
+      <About/>
     </div>
   );
 };

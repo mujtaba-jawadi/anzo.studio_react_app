@@ -4,29 +4,25 @@ import { ScrollTrigger } from "gsap/all";
 import React from "react";
 
 export const SloganSection = () => {
+  gsap.registerPlugin(ScrollTrigger);
 
-    gsap.registerPlugin(ScrollTrigger)
-
-    useGSAP(function () {
-        gsap.from(".rotateText", {
-            transform: 'rotateX(-70deg)',
-            opacity: 0,
-            duration: 1.8,
-            stagger: 1,
-            scrollTrigger: {
-                trigger: '.rotateText',
-                start: 'top 110%',
-                end: 'top -300%',
-                scrub:2,
-            }
-        })
-    })
-
-
-
+  useGSAP(function () {
+    gsap.from(".rotateText", {
+      transform: "rotateX(-70deg)",
+      opacity: 0,
+      duration: 1.5,
+      stagger: 1,
+      scrollTrigger: {
+        trigger: ".rotateText",
+        start: "top 100%",
+        end: "top -320%",
+        scrub: 2,
+      },
+    });
+  });
 
   return (
-    <div id="sloganSection" className="bg-white text-black p-12 text-center">
+    <div className="sloganSection bg-white text-black p-12 text-center">
       <h3 className="text-gray-500 text-[16px] font-[anzo3]">
         © mujtaba.jawadi 2024 | designed and developed
       </h3>
@@ -86,9 +82,7 @@ export const SloganSection = () => {
               ></path>
             </g>
             <g clipPath="url(#96a8edfe-3cce-4a8a-8fa1-014070af92c2_comp-lmyox36t2)">
-              <g filter="url(#aef381e0-a01b-4767-81f9-2c2e04143cb9_comp-lmyox36t2)">
-              
-              </g>
+              <g filter="url(#aef381e0-a01b-4767-81f9-2c2e04143cb9_comp-lmyox36t2)"></g>
               <g filter="url(#d2e92518-4505-4e46-9870-da9ee420c72a_comp-lmyox36t2)">
                 <path
                   fill="#060606"
@@ -144,10 +138,7 @@ export const SloganSection = () => {
                 x="490.013"
                 id="b3e3b32c-99fe-4d7b-a6f9-ff5000655d82_comp-lmyox36t2"
               >
-                <feFlood
-                  result="BackgroundImageFix"
-                  floodOpacity="0"
-                ></feFlood>
+                <feFlood result="BackgroundImageFix" floodOpacity="0"></feFlood>
                 <feColorMatrix
                   result="hardAlpha"
                   values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
@@ -176,10 +167,7 @@ export const SloganSection = () => {
                 x="1736.81"
                 id="2e56b794-19a3-494a-9caf-005465178713_comp-lmyox36t2"
               >
-                <feFlood
-                  result="BackgroundImageFix"
-                  floodOpacity="0"
-                ></feFlood>
+                <feFlood result="BackgroundImageFix" floodOpacity="0"></feFlood>
                 <feColorMatrix
                   result="hardAlpha"
                   values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
@@ -208,10 +196,7 @@ export const SloganSection = () => {
                 x="1289.81"
                 id="5b65b79f-a8c3-4cbd-8f79-4523e3ad9925_comp-lmyox36t2"
               >
-                <feFlood
-                  result="BackgroundImageFix"
-                  floodOpacity="0"
-                ></feFlood>
+                <feFlood result="BackgroundImageFix" floodOpacity="0"></feFlood>
                 <feColorMatrix
                   result="hardAlpha"
                   values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
@@ -240,10 +225,7 @@ export const SloganSection = () => {
                 x="0"
                 id="5627dd36-a779-48af-8b69-2a6a7f33fdf2_comp-lmyox36t2"
               >
-                <feFlood
-                  result="BackgroundImageFix"
-                  floodOpacity="0"
-                ></feFlood>
+                <feFlood result="BackgroundImageFix" floodOpacity="0"></feFlood>
                 <feColorMatrix
                   result="hardAlpha"
                   values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
@@ -272,10 +254,7 @@ export const SloganSection = () => {
                 x="799.585"
                 id="aef381e0-a01b-4767-81f9-2c2e04143cb9_comp-lmyox36t2"
               >
-                <feFlood
-                  result="BackgroundImageFix"
-                  floodOpacity="0"
-                ></feFlood>
+                <feFlood result="BackgroundImageFix" floodOpacity="0"></feFlood>
                 <feColorMatrix
                   result="hardAlpha"
                   values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
@@ -304,10 +283,7 @@ export const SloganSection = () => {
                 x="921.873"
                 id="d2e92518-4505-4e46-9870-da9ee420c72a_comp-lmyox36t2"
               >
-                <feFlood
-                  result="BackgroundImageFix"
-                  floodOpacity="0"
-                ></feFlood>
+                <feFlood result="BackgroundImageFix" floodOpacity="0"></feFlood>
                 <feColorMatrix
                   result="hardAlpha"
                   values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
@@ -336,10 +312,7 @@ export const SloganSection = () => {
                 x="959.733"
                 id="36dc8be9-e14d-4468-8f10-5b935f0ded2f_comp-lmyox36t2"
               >
-                <feFlood
-                  result="BackgroundImageFix"
-                  floodOpacity="0"
-                ></feFlood>
+                <feFlood result="BackgroundImageFix" floodOpacity="0"></feFlood>
                 <feColorMatrix
                   result="hardAlpha"
                   values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
@@ -368,10 +341,7 @@ export const SloganSection = () => {
                 x="996.85"
                 id="840e4ba9-59ed-45fc-94cd-fb8597521bb6_comp-lmyox36t2"
               >
-                <feFlood
-                  result="BackgroundImageFix"
-                  floodOpacity="0"
-                ></feFlood>
+                <feFlood result="BackgroundImageFix" floodOpacity="0"></feFlood>
                 <feColorMatrix
                   result="hardAlpha"
                   values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
@@ -400,10 +370,7 @@ export const SloganSection = () => {
                 x="1037.93"
                 id="0dda612c-ac15-4c9a-8185-69a6202644b9_comp-lmyox36t2"
               >
-                <feFlood
-                  result="BackgroundImageFix"
-                  floodOpacity="0"
-                ></feFlood>
+                <feFlood result="BackgroundImageFix" floodOpacity="0"></feFlood>
                 <feColorMatrix
                   result="hardAlpha"
                   values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
@@ -432,10 +399,7 @@ export const SloganSection = () => {
                 x="1079.56"
                 id="28141f90-b296-4f7d-a99b-03f5e9d14de7_comp-lmyox36t2"
               >
-                <feFlood
-                  result="BackgroundImageFix"
-                  floodOpacity="0"
-                ></feFlood>
+                <feFlood result="BackgroundImageFix" floodOpacity="0"></feFlood>
                 <feColorMatrix
                   result="hardAlpha"
                   values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
@@ -464,10 +428,7 @@ export const SloganSection = () => {
                 x="1090.51"
                 id="e9ada13d-57dd-4d3b-81dd-2261c43d0bb0_comp-lmyox36t2"
               >
-                <feFlood
-                  result="BackgroundImageFix"
-                  floodOpacity="0"
-                ></feFlood>
+                <feFlood result="BackgroundImageFix" floodOpacity="0"></feFlood>
                 <feColorMatrix
                   result="hardAlpha"
                   values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
@@ -496,10 +457,7 @@ export const SloganSection = () => {
                 x="701.812"
                 id="051c9507-4be0-407a-81f9-24a005c00fd5_comp-lmyox36t2"
               >
-                <feFlood
-                  result="BackgroundImageFix"
-                  floodOpacity="0"
-                ></feFlood>
+                <feFlood result="BackgroundImageFix" floodOpacity="0"></feFlood>
                 <feColorMatrix
                   result="hardAlpha"
                   values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
@@ -529,8 +487,8 @@ export const SloganSection = () => {
             </defs>
           </g>
         </svg>
-          </div>
-          <div className="h-[2px] w-1/3 bg-black left-1/2 relative mt-8 -translate-x-1/2 left-"></div>
+      </div>
+      <div className="h-[2px] w-1/3 bg-black left-1/2 relative mt-8 -translate-x-1/2 left-"></div>
     </div>
   );
 };
